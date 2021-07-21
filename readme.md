@@ -6,9 +6,6 @@ This project is the part of Data Science Nanodegree Program by Udacity by using 
 
 The purpose of this project is to build a Natural Language Processing (NLP) model to classify disaster messages. The web app helps categorize the disaster messages into 36 categories. The web app provides emergency workes to input a new message and get classification results. The web app also displays visualizations of the data. 
 
-<img src='.../image/scr1' alt='app_screen1'/>
-<img src='.../image/scr2' alt='app_screen2'/>
-
 
 ## Dependencies
 - Python 3.5+
