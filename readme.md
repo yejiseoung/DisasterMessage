@@ -18,18 +18,15 @@ The purpose of this project is to build a Natural Language Processing (NLP) mode
 
 ## Executing Program:
 1. Run the following commends in terminal to clean data and store the cleaned data in the database
-'''
-{
-python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/disaster_response.db
-}
-'''
+
+`python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/disaster_response.db`
+
+
 
 2. Run the following commends to load data from DB, and save model as a pickle file
-'''
-{
-python models/train_classifier.py data/disaster_response.db models/random_m1.pkl
-}
-'''
+
+`python models/train_classifier.py data/disaster_response.db models/random_m1.pkl`
+
 
 3. Run `python app/run.py`
 
