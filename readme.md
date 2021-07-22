@@ -33,6 +33,25 @@ The purpose of this project is to build a Natural Language Processing (NLP) mode
 4. Go to http://0.0.0.0:3001/
 
 
+## File Descriptions
+The files structure is arranged as below:
+
+        - app
+            - template
+                - master.html: main page of web app
+                - go.html: classification result page of web app
+            - run.py: Flask file that runs app
+        - data
+            - disaster_categories.csv: data to process
+            - disaster_messages.csv: data to process
+            - process_data.py: ETL process
+            - disaster.db : database
+        - models 
+            - train_classifier.py: classification code
+            
+        - README.md
+        
+
 ## Additional Material
 1. **ETL_Pipleline_Preparation.ipynb** shows how to clean data and save it as sql file.
 2. **ML_Pipeline_Preparation.ipynb** shows how to build a NLP model by using pipeline and train and test the model
